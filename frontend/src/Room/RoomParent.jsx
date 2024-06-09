@@ -28,7 +28,7 @@ const RoomParent = () => {
       }
 
       // Revalidate the data
-      mutate();
+      await mutate();
     } catch (error) {
       console.error('Error deleting player:', error);
     }
