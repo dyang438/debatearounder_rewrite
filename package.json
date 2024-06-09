@@ -6,16 +6,19 @@
   "type": "module",
   "scripts": {
     "start": "npx tsx ./backend/src/index.ts",
-    "build": "cd frontend && npm install && npm run build",
+    "build": "concurrently \"npm run build:frontend\" \"npm run build:backend\"",
+    "build:frontend": "cd frontend && npm install && npm run build",
+    "build:backend": "cd backend && npm install && tsc",
+
     "test": "echo \"Error: no test specified\" && exit 1",
     "heroku-postbuild": "npm run build"
-
-
   },
   "engines": {
-    "node": "20.x"
+    "node": "21.x"
   },
-
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
 }
