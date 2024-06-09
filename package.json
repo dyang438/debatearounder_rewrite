@@ -7,7 +7,10 @@
   "scripts": {
     "start": "npx tsx ./backend/src/index.ts",
     "build": "cd frontend && npm install && npm run build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "heroku-postbuild": "npm run build"
+
+
   },
   "engines": {
     "node": "20.x"
