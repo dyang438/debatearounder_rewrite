@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "npx tsx ./backend/src/index.ts",
+    "build": "cd frontend && npm install && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
