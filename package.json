@@ -1,0 +1,13 @@
+{
+  "name": "debatearounder_rewrite",
+  "version": "1.0.0",
+  "description": "In the current difficult, complex climate of social media, a genuine attempt at a social media app attempts to fill the void for people who need simple, warm communication.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "npx tsx ./backend/src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
