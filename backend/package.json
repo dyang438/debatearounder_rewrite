@@ -17,6 +17,7 @@
     "mongodb": "^6.5.0",
     "mongoose": "^7.6.3",
     "node-nlp": "^4.27.0",
+    "path": "^0.12.7",
     "socket.io": "^4.7.5"
   },
   "devDependencies": {

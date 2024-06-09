@@ -445,12 +445,3 @@ i {
   justify-content: center;
   width: 100%;
 }
-
-body {
-  background-image: url('../assets/background.webp'); 
-  background-size: 100% 100%; /* Change this line */
-  background-position: center; 
-  background-attachment: absolute;
-  margin: 0;
-  padding: 0;
-}

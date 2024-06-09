@@ -1,0 +1,32 @@
+#formContainer {
+    width: 100%;
+    font-family: "Andale Mono", monospace;
+}
+
+#subtext {
+    font-size: 15px;
+}
+
+#responseForm {
+    font-size: 25px;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.radioGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.radioGroup .MuiFormControlLabel-root {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

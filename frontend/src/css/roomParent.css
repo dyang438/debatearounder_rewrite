@@ -1,0 +1,44 @@
+.pageContainer {
+    font-family: "Andale Mono", monospace;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.playerContainer {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.playerList {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: center;
+    gap: 10px; /* Add gap between flex items */
+    margin-top: 10px;
+}
+
+.playerButton {
+    width: 15%;
+    padding: 10px;
+    margin: 10px; /* Add margin to create space between buttons */
+}
+
+#generateRoomButton {
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.roomHandling {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.rooms {
+    width: 100%;
+}
+
